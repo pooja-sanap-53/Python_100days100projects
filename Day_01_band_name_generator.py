@@ -1,5 +1,6 @@
 # Day 1 
 # Date : 15 Nov 2021  
+#  Band Name Generator
 
 '''
 #1. Create a greeting for your program.

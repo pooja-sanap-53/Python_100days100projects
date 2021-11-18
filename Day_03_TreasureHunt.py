@@ -25,7 +25,7 @@ Text Snippets from my example
 "You fell into a hole. Game Over."
 '''
 
-print("Welcome to the treasure Hunting!!!\n Hope this journey becomes super adventurous journey and you find the TREASURE!")
+print("Welcome to the Treasure Hunting!!!\nHope this journey becomes super adventurous and you find the TREASURE!")
 
 print("Your are in a Maze. \nWhere do you want to go now?\nPress 'L' for going left\nPress 'R' for going right")
 maze = input()
@@ -60,11 +60,11 @@ Let\'s start swimming then!
     print("Looks like we have reached an island!\nThere is a building over there which has three doors of three different colours.\nWhich one do you choose?\nPress 'G' gor Green door\nPress 'Y' for Yellow door \nPress 'O' for Orange door")
     island_door = input()
     if island_door =='G':
-        print("You have choosen Green door.\n Alas! It is full of fire!\n OMG!! RUN !\n You did not escape. \n GAME OVER!!")
+        print("You have choosen Green door.\nAlas! It is full of fire!\n OMG!! RUN !\n ou did not escape. \nGAME OVER!!")
     elif island_door == 'Y':
-        print("You have choosen Yellow door.\n Alas! It is full of beasts!\n OMG!! RUN !\n You did not escape. \n GAME OVER!!")
+        print("You have choosen Yellow door.\nAlas! It is full of beasts!\n OMG!! RUN !\nYou did not escape. \nGAME OVER!!")
     elif island_door == 'O':
-        print("You have choosen Orange door.\n Congrats, it\'s full of treasure.\n You won!! ")
+        print("You have choosen Orange door.\nCongrats, it\'s full of treasure.\nYou won!! ")
     else:
         print("Invalid input")
 
@@ -95,11 +95,11 @@ Let\'s start walking then!
     print("Looks like we have reached an Forest!\nThere is a building over there which has three doors of three different colours.\nWhich one do you choose?\nPress 'G' gor Green door\nPress 'Y' for Yellow door \nPress 'O' for Orange door")
     forest_door = input()
     if forest_door =='G':
-        print("You have choosen Green door.\n Alas! It is full of fire!\n OMG!! RUN !\n You did not escape. \n GAME OVER!!")
+        print("You have choosen Green door.\nAlas! It is full of fire!\nOMG!! RUN !\nYou did not escape. \nGAME OVER!!")
     elif forest_door == 'Y':
-        print("You have choosen Yellow door.\n Alas! It is full of beasts!\n OMG!! RUN !\n You did not escape. \n GAME OVER!!")
+        print("You have choosen Yellow door.\nAlas! It is full of beasts!\n OMG!! RUN !\nYou did not escape. \nGAME OVER!!")
     elif forest_door == 'O':
-        print("You have choosen Orange door.\n Congrats, it\'s full of treasure.\n You won!! ")
+        print("You have choosen Orange door.\nCongrats, it\'s full of treasure.\nYou won!! ")
     else:
         print("Invalid input")
 

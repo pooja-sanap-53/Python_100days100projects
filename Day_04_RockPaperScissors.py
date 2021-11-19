@@ -1,4 +1,7 @@
+# Day 04
+# Date: 18 Nov 2021
 # Rock Paper Scissors
+
 '''
 Instructions
 Make a rock, paper, scissors game.

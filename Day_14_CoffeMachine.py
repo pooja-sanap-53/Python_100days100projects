@@ -49,24 +49,6 @@ def report():
         print(f"{item} : {resources[item]}")
     
 
-
-def detail(user_input):
-    if user_input == 1:
-        book = menu["espresso"]["ingredients"]
-        for item in book:
-            print(f"{item} : {book[item]}")
-
-    elif user_input == 2:
-        book = menu["latte"]["ingredients"]
-        for item in book:
-            print(f"{item} : {book[item]}")
-
-    else:
-        book = menu["cappuccino"]["ingredients"]
-        for item in book:
-            print(f"{item} : {book[item]}")
-
-
 def check(user_input):
     reso_check = True
     if user_input == 1:
@@ -191,18 +173,15 @@ while should_continue:
 
     elif user_input== "1":
         print("Your selected coffee is Espresso.")
-        detail(1)
         check(1)
         
 
     elif user_input == "2":
         print("Your selected coffee is Latte.")
-        detail(2)
         check(2)
 
     elif user_input == "3":
         print("Your selected coffee is Cappuccino.")
-        detail(3)
         check(3)
 
     elif user_input == 'report':

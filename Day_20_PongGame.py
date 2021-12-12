@@ -112,7 +112,7 @@ while is_on:
     # detect collison with top and bottom wall
     if ball.ycor()>280 or ball.ycor()< -280:
         ball.bounce_y()
-        print("collided with wall")
+        
 
     # detect collision with right and left paddle
     if (ball.distance(r_paddle)<50 and ball.xcor()>340) or  (ball.distance(l_paddle)<50 and ball.xcor()<-340):
